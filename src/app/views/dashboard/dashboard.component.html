@@ -86,7 +86,7 @@
 <c-card class="mb-1">
   <c-card-body breakpoint="md">
     <h4 class="card-title mb-0" class="subtitle">Nuestros Autos 🚗</h4>
-    <c-carousel>
+    <c-carousel >
       <c-carousel-indicators></c-carousel-indicators>
       <c-carousel-inner>
         <c-carousel-item *ngFor="let slide of slides">
@@ -94,7 +94,7 @@
             [src]="slide.src"
             alt="{{ slide.title }}"
             class="d-block w-100"
-            style="height: auto;"
+            style="height: 450px;"
             loading="lazy" 
             />
         </c-carousel-item>

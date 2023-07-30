@@ -17,10 +17,10 @@ export class DashboardComponent implements OnInit {
       src: 'https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/1147655_1406535209572481_1645586144_o.jpg?alt=media&token=6c78487e-f461-4f32-b418-a9ef774edb92',
     }
     this.slides[2] = {
-      src: 'https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/IMG-20210320-WA0013.jpg?alt=media&token=b418f4f0-0408-4728-aa50-b84b95e49566',
+      src: 'https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/10974301_1792137671012231_3174899646738802232_o.jpg?alt=media&token=dd7d0b01-2494-4d85-ac68-375ac7ba6e22',
     }
     this.slides[3] = {
-      src: 'https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/FB_IMG_1616247684621.jpg?alt=media&token=14b77fe5-fbb6-435c-b332-350e76375a67',
+      src: 'https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/1146853_1792138167678848_9022478942069390528_o.jpg?alt=media&token=5cb01932-635a-4b99-a827-e2f00f39af90',
     }
   }
 }
