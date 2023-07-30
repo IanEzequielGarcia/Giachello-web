@@ -1,0 +1,121 @@
+
+<head>
+  
+</head>
+<c-card class="mb-4">
+  <c-card-body>
+    <c-row>
+      <c-col style="text-align: center;">
+        <h4 class="card-title mb-0" class="title">Autoescuela </h4>
+        <h4 class="giachelloTitle">Giachello</h4>
+      </c-col>
+    </c-row>
+  </c-card-body>
+</c-card>
+<div>
+  <p>Nuestros Servicios</p>
+  <p>Cursos a domicilio, todos los días de 8:30 a 20:30. De una hora de duración</p>
+  
+  <c-row [gutter]="4" class="mb-3" [md]="3" [xs]="1">
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/neighborhood.png">
+        <c-card-body>
+          <h5 cCardTitle>Practica en calle</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+            5 clases donde se practican todos los aspectos necesarios.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/test.png">
+        <c-card-body>
+          <h5 cCardTitle>Acompañamiento a Examen</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/highway-sign.png">
+        <c-card-body>
+          <h5 cCardTitle>Clases de Autopista</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/pollution.png">
+        <c-card-body>
+          <h5 cCardTitle>Manejo Avanzado</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/driving-test.png">
+        <c-card-body>
+          <h5 cCardTitle>Manejo Defensivo</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+    <c-col>
+      <c-card class="h-100">
+        <img cCardImg="top" class="cardImage" src="../../../assets/images/information.png">
+        <c-card-body>
+          <h5 cCardTitle>Material teórico</h5>
+          <p cCardText>
+            Clases practicas personalizadas, incluye traslado ida y vuelta.
+          </p>
+        </c-card-body>
+      </c-card>
+    </c-col>
+  </c-row>
+</div>
+
+<c-card class="mb-1">
+  <c-card-body breakpoint="md">
+    <h4 class="card-title mb-0" class="subtitle">Nuestros Autos 🚗</h4>
+    <c-carousel>
+      <c-carousel-indicators></c-carousel-indicators>
+      <c-carousel-inner>
+        <c-carousel-item *ngFor="let slide of slides">
+          <img
+            [src]="slide.src"
+            alt="{{ slide.title }}"
+            class="d-block w-100"
+            style="height: auto;"
+            loading="lazy" 
+            />
+        </c-carousel-item>
+      </c-carousel-inner>
+      <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+      <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+    </c-carousel>
+  </c-card-body>
+</c-card>
+
+<c-row>
+  <c-col id="mapaCelu">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4640.662547107034!2d-58.374205184318306!3d-34.668743096814666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd594c328ceb%3A0xc0a6fd1741f94c56!2sAutoescuela%20Giachello!5e0!3m2!1sen!2sus!4v1690666835285!5m2!1sen!2sus" 
+    width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </c-col>
+  <c-col id="mapaCompu">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4640.662547107034!2d-58.374205184318306!3d-34.668743096814666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd594c328ceb%3A0xc0a6fd1741f94c56!2sAutoescuela%20Giachello!5e0!3m2!1sen!2sus!4v1690666835285!5m2!1sen!2sus" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </c-col>
+</c-row>
