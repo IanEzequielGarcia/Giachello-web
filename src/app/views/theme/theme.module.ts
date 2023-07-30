@@ -9,6 +9,8 @@ import { TypographyComponent } from './typography.component';
 
 // Theme Routing
 import { ThemeRoutingModule } from './theme-routing.module';
+import { ExamComponent } from '../pages/exam/exam.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -19,11 +21,14 @@ import { ThemeRoutingModule } from './theme-routing.module';
     UtilitiesModule,
     IconModule,
     NavModule,
-    TabsModule
+    TabsModule,
+    FormsModule
+    
   ],
   declarations: [
     InformacionComponent,
     TypographyComponent,
+    ExamComponent
   ]
 })
 export class ThemeModule {
