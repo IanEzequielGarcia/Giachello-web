@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  font-size: 24px;
+  color: red;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px !important;
+  flex-wrap: wrap;
+}
+.wrapper > div:first-child {
+  margin-right: 15px;
+}
+.wrapper img {
+  display: block;
+  max-width: 100%;
+}
