@@ -41,7 +41,8 @@ import {
 } from '@coreui/angular';
 
 import { IconModule, IconSetService } from '@coreui/icons-angular';
-import { environment } from '../enviroments/environment';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 const APP_CONTAINERS = [
   DefaultFooterComponent,
@@ -78,9 +79,10 @@ const APP_CONTAINERS = [
     ListGroupModule,
     CardModule,
     NgScrollbarModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    AngularFireModule.initializeApp(environment.firebase),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore()),
+    provideStorage(() => getStorage()),
   ],
   providers: [
     {

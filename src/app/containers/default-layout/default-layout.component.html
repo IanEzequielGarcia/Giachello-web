@@ -4,11 +4,12 @@
   #sidebar="cSidebar"
   class="d-print-none sidebar sidebar-fixed"
   id="sidebar"
-  visible
 >
-  <div style="text-align: center;">
-    <h2 class="card-title mb-0" class="title">Autoescuela </h2>
-    <h2 class="giachelloTitle">Giachello</h2> 
+  <div id="iconSidebar">
+    <a href="./" style="text-decoration: none;">
+      <h2 class="card-title mb-0" class="title">Autoescuela </h2>
+      <h2 class="giachelloTitle">Giachello</h2> 
+    </a>
   </div>
 
 
@@ -19,6 +20,7 @@
     />
   </ng-scrollbar>
   <c-sidebar-toggler
+    class="toggler"
     *ngIf="!sidebar.narrow"
     toggle="unfoldable"
     cSidebarToggle="sidebar"

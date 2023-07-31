@@ -3,29 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@600&family=Roboto&display=swap');
 @font-face {
   font-family: giachelloFont;
-  src: url(../../../scss/fonts/ARRUSK.ttf);
+  src: url(../../../../scss/fonts/ARRUSK.ttf);
 }
 
 *{
   font-family: 'Roboto', sans-serif;
 }
-
-
-
+.divTitle{
+  text-align: center;
+  h1{
+    color: #B40202;
+  }
+  h3{
+    color: #FF0000;
+  }
+}
 @media only screen and (min-width: 576px) {
   .title{
-    color: rgb(104, 163, 209);
     font-family: 'Poppins', sans-serif;
     font-size:48px;
     text-align: center;
     display: inline;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
   .giachelloTitle{
     color: rgb(255,215,0);
     font-family: giachelloFont;
     font-size:48px;
     text-align: center;
-    -webkit-text-stroke: 2px black; /* width and color */
+    -webkit-text-stroke: 1.5px black; /* width and color */
     display: inline;
   }
   .cardImage{
@@ -47,6 +54,12 @@
   .mapWrap{
     width: 100%;
     overflow: hidden;
+  }
+  #mapaDiv{
+    width: 49%;
+  }
+  #info{
+    width: 49%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -57,25 +70,20 @@
     display: block;
   }
   .title{
-    color: rgb(104, 163, 209);
-    font-family: 'Abril Fatface', cursive;
-    font-size:56px;
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
     text-align: center;
     display: inline;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
   .giachelloTitle{
     color: rgb(255,215,0);
-    font-family: 'Abril Fatface', cursive;
-    font-size:56px;
+    font-family: giachelloFont;
+    font-size:48px;
     text-align: center;
-    -webkit-text-stroke: 2px black; /* width and color */
+    -webkit-text-stroke: 1.5px black; /* width and color */
     display: inline;
-  }
-  .subtitle{
-    color: rgb(104, 163, 209);
-    font-family: 'Abril Fatface', cursive;
-    font-size:42px;
-    text-align: center;
   }
   .cardImage{
     width: 150px;
@@ -91,23 +99,10 @@
     width: 100%;
     overflow: hidden;
   }
-}
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float{
-	margin-top:16px;
+  #mapaDiv{
+    width: 100%;
+  }
+  #info{
+    width: 100%;
+  }
 }

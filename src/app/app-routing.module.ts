@@ -8,7 +8,7 @@ import { Page500Component } from './views/pages/page500/page500.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: '',
     pathMatch: 'full'
   },
   {
@@ -19,24 +19,9 @@ const routes: Routes = [
     },
     children: [
       {
-        path: 'dashboard',
-        loadChildren: () =>
-          import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule)
-      },
-      {
-        path: 'extra',
+        path: '',
         loadChildren: () =>
           import('./views/theme/theme.module').then((m) => m.ThemeModule)
-      },
-      {
-        path: 'widgets',
-        loadChildren: () =>
-          import('./views/widgets/widgets.module').then((m) => m.WidgetsModule)
-      },
-      {
-        path: 'pages',
-        loadChildren: () =>
-          import('./views/pages/pages.module').then((m) => m.PagesModule)
       },
     ]
   },
@@ -54,7 +39,7 @@ const routes: Routes = [
       title: 'Page 500'
     }
   },
-  {path: '**', redirectTo: 'dashboard'}
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({

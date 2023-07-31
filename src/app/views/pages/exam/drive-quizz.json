@@ -1,639 +1,112 @@
 [
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b229.jpg",
-        "responses": [
-            {
-                "text": "Inicio de doble mano."
-            },
-            {
-                "correct": true,
-                "text": "Encrucijada (bifurcación)."
-            },
-            {
-                "text": "Estrechamiento (en una sola mano)."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b229.jpg",
+      "question": "Determine qué indica la señal que a continuación se presenta:",
+      "answer": [
+        { "option": "Inicio de doble mano.", "correct": false },
+        { "option": "Encrucijada (bifurcación).", "correct": true },
+        { "option": "Estrechamiento (en una sola mano).", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b263.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Comienzo de autopista."
-            },
-            {
-                "text": "Comienzo de ruta."
-            },
-            {
-                "text": "Comienzo de semiautopista."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b263.jpg",
+      "question": "Determine qué indica la señal que a continuación se presenta:",
+      "answer": [
+        { "option": "Comienzo de autopista.", "correct": true },
+        { "option": "Comienzo de ruta.", "correct": false },
+        { "option": "Comienzo de semiautopista.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b24.jpg",
-        "responses": [
-            {
-                "text": "Que no comience a cruzar la calzada."
-            },
-            {
-                "text": "Si inició el cruce, que lo finalice con mucha precaución."
-            },
-            {
-                "correct": true,
-                "text": "Ambas respuestas, la A y la B son correctas."
-            }
-        ],
-        "text": "Como conductor, observa que esta luz se encuentra intermitente, ¿qué debería esperar que haga el peatón?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b24.jpg",
+      "question": "Como conductor, observa que esta luz se encuentra intermitente, ¿qué debería esperar que haga el peatón?",
+      "answer": [
+        { "option": "Que no comience a cruzar la calzada.", "correct": false },
+        { "option": "Si inició el cruce, que lo finalice con mucha precaución.", "correct": false },
+        { "option": "Ambas respuestas, la A y la B son correctas.", "correct": true }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b76.jpg",
-        "responses": [
-            {
-                "text": "Que es un sector destinado a la detención y al estacionamiento de vehículos."
-            },
-            {
-                "text": "Que se debe circular lentamente por su sector central."
-            },
-            {
-                "correct": true,
-                "text": "Que no se debe circular sobre ella."
-            }
-        ],
-        "text": "¿Qué indica esta demarcación amarilla en la calzada?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b76.jpg",
+      "question": "¿Qué indica esta demarcación amarilla en la calzada?",
+      "answer": [
+        { "option": "Que es un sector destinado a la detención y al estacionamiento de vehículos.", "correct": false },
+        { "option": "Que se debe circular lentamente por su sector central.", "correct": false },
+        { "option": "Que no se debe circular sobre ella.", "correct": true }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b274.jpg",
-        "responses": [
-            {
-                "text": "Ruta Nacional N°5."
-            },
-            {
-                "correct": true,
-                "text": "Ruta Provincial N°5."
-            },
-            {
-                "text": "Ruta Panamericana N°5."
-            }
-        ],
-        "text": "Indique qué significa esta señal:"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b274.jpg",
+      "question": "Indique qué significa esta señal:",
+      "answer": [
+        { "option": "Ruta Nacional N°5.", "correct": false },
+        { "option": "Ruta Provincial N°5.", "correct": true },
+        { "option": "Ruta Panamericana N°5.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b253.jpg",
-        "responses": [
-            {
-                "text": "Que es un carril preferencial para ciclistas."
-            },
-            {
-                "correct": true,
-                "text": "Que es un carril de uso exclusivo para ciclistas."
-            },
-            {
-                "text": "Que los ciclistas no pueden circular por este carril."
-            }
-        ],
-        "text": "Esta señal vertical reglamentaria indica…"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b253.jpg",
+      "question": "Esta señal vertical reglamentaria indica…",
+      "answer": [
+        { "option": "Que es un carril preferencial para ciclistas.", "correct": false },
+        { "option": "Que es un carril de uso exclusivo para ciclistas.", "correct": true },
+        { "option": "Que los ciclistas no pueden circular por este carril.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b259.jpg",
-        "responses": [
-            {
-                "text": "Prohibición de Girar a la Derecha."
-            },
-            {
-                "correct": true,
-                "text": "Prohibición de Cambiar de Carril."
-            },
-            {
-                "text": "Prohibición de Adelantar."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b259.jpg",
+      "question": "Determine qué indica la señal que a continuación se presenta:",
+      "answer": [
+        { "option": "Prohibición de Girar a la Derecha.", "correct": false },
+        { "option": "Prohibición de Cambiar de Carril.", "correct": true },
+        { "option": "Prohibición de Adelantar.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b256.jpg",
-        "responses": [
-            {
-                "text": "Inicio de calle de convivencia."
-            },
-            {
-                "text": "Los peatones no deben circular por esa zona."
-            },
-            {
-                "correct": true,
-                "text": "Los peatones deben circular obligatoriamente por la derecha."
-            }
-        ],
-        "text": "¿Qué indica esta señal reglamentaria?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b256.jpg",
+      "question": "¿Qué indica esta señal reglamentaria?",
+      "answer": [
+        { "option": "Inicio de calle de convivencia.", "correct": false },
+        { "option": "Los peatones no deben circular por esa zona.", "correct": false },
+        { "option": "Los peatones deben circular obligatoriamente por la derecha.", "correct": true }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b272.jpg",
-        "responses": [
-            {
-                "text": "Se encuentra permitido detenerse en esa vía."
-            },
-            {
-                "correct": true,
-                "text": "Existencia de un estacionamiento vehicular, en las inmediaciones."
-            },
-            {
-                "text": "Se encuentra permitido estacionar en esa vía."
-            }
-        ],
-        "text": "¿Qué indica esta señal?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b272.jpg",
+      "question": "¿Qué indica esta señal?",
+      "answer": [
+        { "option": "Se encuentra permitido detenerse en esa vía.", "correct": false },
+        { "option": "Existencia de un estacionamiento vehicular, en las inmediaciones.", "correct": true },
+        { "option": "Se encuentra permitido estacionar en esa vía.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b235.jpg",
-        "responses": [
-            {
-                "text": "Niños jugando."
-            },
-            {
-                "correct": true,
-                "text": "Zona escolar."
-            },
-            {
-                "text": "Calle peatonal."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b235.jpg",
+      "question": "Determine qué indica la señal que a continuación se presenta:",
+      "answer": [
+        { "option": "Niños jugando.", "correct": false },
+        { "option": "Zona escolar.", "correct": true },
+        { "option": "Calle peatonal.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b122.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Se debe respetar lo que rige con respecto a la línea más próxima; si es continua no traspasarla y si es discontinua está permitido hacerlo."
-            },
-            {
-                "text": "Se debe respetar lo que rige con respecto a la línea más próxima; si es discontinua no traspasarla y si es continua está permitido hacerlo."
-            },
-            {
-                "text": "No debe traspasarse ninguna de ellas."
-            }
-        ],
-        "text": "Frente a la demarcación central de la calzada señalada, ¿cuál es la conducta a seguir?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b122.jpg",
+      "question": "Frente a la demarcación central de la calzada señalada, ¿cuál es la conducta a seguir?",
+      "answer": [
+        { "option": "Se debe respetar lo que rige con respecto a la línea más próxima; si es continua no traspasarla y si es discontinua está permitido hacerlo.", "correct": true },
+        { "option": "Se debe respetar lo que rige con respecto a la línea más próxima; si es discontinua no traspasarla y si es continua está permitido hacerlo.", "correct": false },
+        { "option": "No debe traspasarse ninguna de ellas.", "correct": false }
+      ]
     },
     {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b258.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Que no se puede circular a una velocidad inferior a 35 km/h en esa vía."
-            },
-            {
-                "text": "Que la velocidad máxima es de 35 km/h en esa vía."
-            },
-            {
-                "text": "Que la velocidad precautoria es de 35 km/h en esa vía."
-            }
-        ],
-        "text": "¿Qué indica esta señal reglamentaria?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b270.jpg",
-        "responses": [
-            {
-                "text": "Prohibición de estacionar en la entrada de terminal de ómnibus."
-            },
-            {
-                "correct": true,
-                "text": "Existencia de terminal de ómnibus, en las inmediaciones."
-            },
-            {
-                "text": "Prohibición de detenerse en la entrada de terminal de ómnibus."
-            }
-        ],
-        "text": "¿Qué significa esta señal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b72.jpg",
-        "responses": [
-            {
-                "text": "Reglamentaria."
-            },
-            {
-                "correct": true,
-                "text": "Transitoria."
-            },
-            {
-                "text": "Informativa."
-            }
-        ],
-        "text": "¿Qué tipo de señal es la siguiente imagen?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/c6.jpg",
-        "responses": [
-            {
-                "text": "Máximo Largo Permitido."
-            },
-            {
-                "correct": true,
-                "text": "Señal preventiva de ancho limitado."
-            },
-            {
-                "text": "Reducción de Calzada."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b252.jpg",
-        "responses": [
-            {
-                "text": "Sobrepasos por la derecha."
-            },
-            {
-                "text": "Circulación exclusiva (camión)."
-            },
-            {
-                "correct": true,
-                "text": "Tránsito pesado a la derecha."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b265.jpg",
-        "responses": [
-            {
-                "text": "Permitido girar hacia la izquierda."
-            },
-            {
-                "text": "Dirección obligatoria hacia la izquierda."
-            },
-            {
-                "correct": true,
-                "text": "Dirección permitida hacia la izquierda."
-            }
-        ],
-        "text": "¿Qué indica esta señal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/a2.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "No, ya que es de uso exclusivo de bicicletas."
-            },
-            {
-                "text": "Sí, ya que es un vehículo de 2 ruedas."
-            },
-            {
-                "text": "Sí, siempre y cuando no circulen bicicletas."
-            }
-        ],
-        "text": "¿Puede un motovehículo circular por el carril señalizado en esta imagen?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b83.jpg",
-        "responses": [
-            {
-                "text": "La señal A."
-            },
-            {
-                "correct": true,
-                "text": "La señal B."
-            },
-            {
-                "text": "La señal C."
-            }
-        ],
-        "text": "¿Cuál de estas señales es Reglamentaria?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b222.jpg",
-        "responses": [
-            {
-                "text": "Senda peatonal."
-            },
-            {
-                "correct": true,
-                "text": "Personas trabajando."
-            },
-            {
-                "text": "Cruce peatonal de máximo peligro."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b230.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Túnel."
-            },
-            {
-                "text": "Puente angosto."
-            },
-            {
-                "text": "Altura mínima."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b226.jpg",
-        "responses": [
-            {
-                "text": "Camino resbaladizo."
-            },
-            {
-                "correct": true,
-                "text": "Camino sinuoso."
-            },
-            {
-                "text": "Camino cuesta arriba."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b225.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Cruce de jinetes."
-            },
-            {
-                "text": "Prohibición de circular con animales."
-            },
-            {
-                "text": "Camino peligroso por presencia de animales sueltos."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/c7.jpg",
-        "responses": [
-            {
-                "text": "A los vehículos que tienen más de 4,10 metros de ancho."
-            },
-            {
-                "text": "A los vehículos que tienen más de 4.100 kilogramos de peso."
-            },
-            {
-                "correct": true,
-                "text": "A los vehículos que tienen más de 4,10 metros de altura."
-            }
-        ],
-        "text": "¿A qué vehículos prohíbe pasar esta señal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b271.jpg",
-        "responses": [
-            {
-                "text": "Prohibición de detenerse en las inmediaciones a la plaza."
-            },
-            {
-                "text": "Prohibición de estacionar en las inmediaciones a la plaza."
-            },
-            {
-                "correct": true,
-                "text": "Existencia de una plaza, en las inmediaciones."
-            }
-        ],
-        "text": "¿Qué indica esta señal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b120.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Sí, porque ordena la circulación de carriles e indica que se puede sobrepasar a otro vehículo."
-            },
-            {
-                "text": "Sólo cuando la vía tiene dos carriles por sentido de circulación."
-            },
-            {
-                "text": "No, porque indica prohibición de sobrepaso."
-            }
-        ],
-        "text": "¿Se puede traspasar la siguiente señal horizontal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b154.jpg",
-        "responses": [
-            {
-                "text": "No. Está prohibido estacionar y detenerse."
-            },
-            {
-                "correct": true,
-                "text": "Sí. Sólo está prohibido estacionar pero no detenerse."
-            },
-            {
-                "text": "Según la hora en que quiera realizarse la detención."
-            }
-        ],
-        "text": "Como norma general, frente a esta señal, ¿está permitido detenerse para el ascenso o descenso de pasajeros?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/c8.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Aquellos cuyo ancho máximo supere el indicado."
-            },
-            {
-                "text": "Aquellos cuya altura máxima, incluida la carga, supere la indicada."
-            },
-            {
-                "text": "Aquellos cuya longitud máxima supere la indicada."
-            }
-        ],
-        "text": "¿A qué vehículos prohíbe pasar esta señal?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/c9.jpg",
-        "responses": [
-            {
-                "text": "Limitación de altura."
-            },
-            {
-                "correct": true,
-                "text": "Limitación de peso."
-            },
-            {
-                "text": "Limitación de ancho."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b246.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Verdadero."
-            },
-            {
-                "text": "Falso."
-            }
-        ],
-        "text": "La señal que se muestra es una señal preventiva, de máximo peligro, que anuncia la existencia de un tramo de vía con fuerte pendiente descendente."
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/a13.jpg",
-        "responses": [
-            {
-                "text": "Carril exclusivo para motos."
-            },
-            {
-                "text": "Zona de estacionamiento para motos."
-            },
-            {
-                "correct": true,
-                "text": "Zona de detención segura de motos."
-            }
-        ],
-        "text": "¿Qué significa la demarcación horizontal señalada?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b86.jpg",
-        "responses": [
-            {
-                "text": "Preventiva"
-            },
-            {
-                "text": "Reglamentaria."
-            },
-            {
-                "correct": true,
-                "text": "Informativa."
-            }
-        ],
-        "text": "Indique qué tipo de señal es la que a continuación se muestra:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b257.jpg",
-        "responses": [
-            {
-                "text": "Indica que el carril sobre el que se encuentra la señal, no puede ser utilizado por motocicletas y ciclomotores."
-            },
-            {
-                "correct": true,
-                "text": "Indica que el carril sobre el que se encuentra la señal, es de uso exclusivo para motocicletas y ciclomotores."
-            },
-            {
-                "text": "Indica que el carril sobre el que se encuentra la señal, es de uso exclusivo para bicicletas."
-            }
-        ],
-        "text": "¿Qué indica esta señal reglamentaria?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/c5.jpg",
-        "responses": [
-            {
-                "text": "Máximo Largo Permitido."
-            },
-            {
-                "correct": true,
-                "text": "Señal preventiva de altura limitada."
-            },
-            {
-                "text": "Peso Máximo."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b238.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Cruce de peatones (Peligro máximo)."
-            },
-            {
-                "text": "Peatones a la izquierda."
-            },
-            {
-                "text": "Prohibición de circular. Zona exclusiva peatonal."
-            }
-        ],
-        "text": "Determine qué indica la señal vertical que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/a14.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Mejorar la visibilidad de los motovehículos e indicar la presencia de una zona de detención exclusiva de los mismos."
-            },
-            {
-                "text": "Permitir la circulación exclusiva de los motovehículos por un carril."
-            },
-            {
-                "text": "Señalizar que por allí está prohibida la circulación de motovehículos."
-            }
-        ],
-        "text": "¿Para qué sirve la demarcación horizontal señalada?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b82.jpg",
-        "responses": [
-            {
-                "text": "La señal A."
-            },
-            {
-                "correct": true,
-                "text": "La señal B."
-            },
-            {
-                "text": "La señal C."
-            }
-        ],
-        "text": "¿Cuál de estas señales comunica “Prevención”?"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b275.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Ruta Nacional N°3."
-            },
-            {
-                "text": "Ruta Provincial N°3."
-            },
-            {
-                "text": "Ruta Panamericana N°3."
-            }
-        ],
-        "text": "Indique qué significa esta señal:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b245.jpg",
-        "responses": [
-            {
-                "text": "Cruce Ferroviario (por la derecha)."
-            },
-            {
-                "text": "Prohibición de Girar."
-            },
-            {
-                "correct": true,
-                "text": "Panel de Prevención (Curva)."
-            }
-        ],
-        "text": "Determine qué indica la señal que a continuación se presenta:"
-    },
-    {
-        "img": "https://www.testdeconducir.com.ar/images/preguntas/b269.jpg",
-        "responses": [
-            {
-                "correct": true,
-                "text": "Existencia de un teatro, en las inmediaciones."
-            },
-            {
-                "text": "Prohibición de estacionar en la puerta de un teatro."
-            },
-            {
-                "text": "Prohibición de detenerse en la puerta de un teatro."
-            }
-        ],
-        "text": "¿Qué indica esta señal?"
+      "image": "https://www.testdeconducir.com.ar/images/preguntas/b258.jpg",
+      "question": "¿Qué indica esta señal reglamentaria?",
+      "answer": [
+        { "option": "Que no se puede circular a una velocidad inferior a 35 km/h en esa vía.", "correct": true },
+        { "option": "Que la velocidad máxima es de 35 km/h en esa vía.", "correct": false },
+        { "option": "Que la velocidad precautoria es de 35 km/h en esa vía.", "correct": false }
+      ]
     }
+
 ]
+  
