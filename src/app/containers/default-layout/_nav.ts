@@ -3,7 +3,7 @@ import { INavData } from '@coreui/angular';
 export const navItems: INavData[] = [
   {
     name: 'Inicio 🚗',
-    url: '/Inicio',
+    url: '/inicio',
     iconComponent: { name: 'cil-speedometer' },
   },
   {
@@ -16,27 +16,4 @@ export const navItems: INavData[] = [
     url: '/sobreNosotros',
     iconComponent: { name: 'cil-user' }
   },
-  // {
-  //   name: 'Pages',
-  //   url: '/login',
-  //   iconComponent: { name: 'cil-star' },
-  //   children: [
-  //     {
-  //       name: 'Login',
-  //       url: '/login'
-  //     },
-  //     {
-  //       name: 'Register',
-  //       url: '/register'
-  //     },
-  //     {
-  //       name: 'Error 404',
-  //       url: '/404'
-  //     },
-  //     {
-  //       name: 'Error 500',
-  //       url: '/500'
-  //     }
-  //   ]
-  // },
 ];

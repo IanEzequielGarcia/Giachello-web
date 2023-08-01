@@ -8,16 +8,21 @@
 
 *{
   font-family: 'Roboto', sans-serif;
+  color: #333f48;
 }
 .divTitle{
   text-align: center;
-  h1{
-    color: #B40202;
-  }
-  h3{
-    color: #FF0000;
-  }
+  margin-bottom: 10px;
 }
+.iconWrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
 @media only screen and (min-width: 576px) {
   .title{
     font-family: 'Poppins', sans-serif;

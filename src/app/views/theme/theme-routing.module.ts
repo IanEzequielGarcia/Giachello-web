@@ -10,11 +10,11 @@ import { Page500Component } from '../pages/page500/page500.component';
 const routes: Routes = [
     {
       path: '',
-      redirectTo: 'Inicio',
+      redirectTo: 'inicio',
       pathMatch: 'full'
     },
     {
-      path: 'Inicio',
+      path: 'inicio',
       component: DashboardComponent,
       data: {
         title: 'Inicio'

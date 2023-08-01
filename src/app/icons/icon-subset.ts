@@ -185,12 +185,6 @@ export const iconSubset = {
 };
 
 export enum IconSubset {
-  cibCcAmex = 'cibCcAmex',
-  cibCcApplePay = 'cibCcApplePay',
-  cibCcMastercard = 'cibCcMastercard',
-  cibCcPaypal = 'cibCcPaypal',
-  cibCcStripe = 'cibCcStripe',
-  cibCcVisa = 'cibCcVisa',
   cibFacebook = 'cibFacebook',
   cibGoogle = 'cibGoogle',
   cibLinkedin = 'cibLinkedin',
