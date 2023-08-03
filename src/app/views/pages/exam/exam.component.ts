@@ -27,7 +27,7 @@ export class ExamComponent {
   
   quizzes: Quiz[] = [
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b229.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb229.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Inicio de doble mano.", "correct": false },
@@ -36,7 +36,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b263.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb263.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Comienzo de autopista.", "correct": true },
@@ -45,7 +45,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b24.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb24.jpg?alt=media",
       "question": "Como conductor, observa que esta luz se encuentra intermitente, ¿qué debería esperar que haga el peatón?",
       "answer": [
         { "option": "Que no comience a cruzar la calzada.", "correct": false },
@@ -54,7 +54,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b76.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb76.jpg?alt=media",
       "question": "¿Qué indica esta demarcación amarilla en la calzada?",
       "answer": [
         { "option": "Que es un sector destinado a la detención y al estacionamiento de vehículos.", "correct": false },
@@ -63,7 +63,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b274.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb274.jpg?alt=media",
       "question": "Indique qué significa esta señal:",
       "answer": [
         { "option": "Ruta Nacional N°5.", "correct": false },
@@ -72,7 +72,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b253.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb253.jpg?alt=media",
       "question": "Esta señal vertical reglamentaria indica…",
       "answer": [
         { "option": "Que es un carril preferencial para ciclistas.", "correct": false },
@@ -81,7 +81,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b259.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb259.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Prohibición de Girar a la Derecha.", "correct": false },
@@ -90,7 +90,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b256.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb256.jpg?alt=media",
       "question": "¿Qué indica esta señal reglamentaria?",
       "answer": [
         { "option": "Inicio de calle de convivencia.", "correct": false },
@@ -99,7 +99,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b272.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb272.jpg?alt=media",
       "question": "¿Qué indica esta señal?",
       "answer": [
         { "option": "Se encuentra permitido detenerse en esa vía.", "correct": false },
@@ -108,7 +108,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b235.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb235.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Niños jugando.", "correct": false },
@@ -117,7 +117,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b122.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb122.jpg?alt=media",
       "question": "Frente a la demarcación central de la calzada señalada, ¿cuál es la conducta a seguir?",
       "answer": [
         { "option": "Se debe respetar lo que rige con respecto a la línea más próxima; si es continua no traspasarla y si es discontinua está permitido hacerlo.", "correct": true },
@@ -126,7 +126,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b258.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb258.jpg?alt=media",
       "question": "¿Qué indica esta señal reglamentaria?",
       "answer": [
         { "option": "Que no se puede circular a una velocidad inferior a 35 km/h en esa vía.", "correct": true },
@@ -135,7 +135,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b270.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb270.jpg?alt=media",
       "question": "¿Qué significa esta señal?",
       "answer": [
         { "option": "Prohibición de estacionar en la entrada de terminal de ómnibus.", "correct": false },
@@ -144,7 +144,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b72.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb72.jpg?alt=media",
       "question": "¿Qué tipo de señal es la siguiente imagen?",
       "answer": [
         { "option": "Reglamentaria.", "correct": false },
@@ -153,7 +153,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/c6.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fc6.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Máximo Largo Permitido.", "correct": false },
@@ -162,7 +162,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b252.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb252.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Sobrepasos por la derecha.", "correct": false },
@@ -171,7 +171,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b265.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb265.jpg?alt=media",
       "question": "¿Qué indica esta señal?",
       "answer": [
         { "option": "Permitido girar hacia la izquierda.", "correct": false },
@@ -180,7 +180,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/a2.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fa2.jpg?alt=media",
       "question": "¿Puede un motovehículo circular por el carril señalizado en esta imagen?",
       "answer": [
         { "option": "No, ya que es de uso exclusivo de bicicletas.", "correct": true },
@@ -189,7 +189,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b83.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb83.jpg?alt=media",
       "question": "¿Cuál de estas señales es Reglamentaria?",
       "answer": [
         { "option": "La señal A.", "correct": false },
@@ -198,7 +198,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b222.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb222.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Senda peatonal.", "correct": false },
@@ -207,7 +207,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b230.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb230.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Túnel.", "correct": true },
@@ -216,7 +216,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b226.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb226.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Camino resbaladizo.", "correct": false },
@@ -225,7 +225,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b225.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb225.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Cruce de jinetes.", "correct": true },
@@ -234,7 +234,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/c7.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fc7.jpg?alt=media",
       "question": "¿A qué vehículos prohíbe pasar esta señal?",
       "answer": [
         { "option": "A los vehículos que tienen más de 4,10 metros de ancho.", "correct": false },
@@ -243,7 +243,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b271.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb271.jpg?alt=media",
       "question": "¿Qué indica esta señal?",
       "answer": [
         { "option": "Prohibición de detenerse en las inmediaciones a la plaza.", "correct": false },
@@ -252,7 +252,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b120.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb120.jpg?alt=media",
       "question": "¿Se puede traspasar la siguiente señal horizontal?",
       "answer": [
         { "option": "Sí, porque ordena la circulación de carriles e indica que se puede sobrepasar a otro vehículo.", "correct": true },
@@ -261,7 +261,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b154.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb154.jpg?alt=media",
       "question": "Como norma general, frente a esta señal, ¿está permitido detenerse para el ascenso o descenso de pasajeros?",
       "answer": [
         { "option": "No. Está prohibido estacionar y detenerse.", "correct": false },
@@ -270,7 +270,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/c8.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fc8.jpg?alt=media",
       "question": "¿A qué vehículos prohíbe pasar esta señal?",
       "answer": [
         { "option": "Aquellos cuyo ancho máximo supere el indicado.", "correct": true },
@@ -279,7 +279,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/c9.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fc9.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Limitación de altura.", "correct": false },
@@ -288,7 +288,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b246.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb246.jpg?alt=media",
       "question": "La señal que se muestra es una señal preventiva, de máximo peligro, que anuncia la existencia de un tramo de vía con fuerte pendiente descendente.",
       "answer": [
         { "option": "Verdadero.", "correct": true },
@@ -296,7 +296,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/a13.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fa13.jpg?alt=media",
       "question": "¿Para qué sirve la demarcación horizontal señalada?",
       "answer": [
         { "option": "Mejorar la visibilidad de los motovehículos e indicar la presencia de una zona de detención exclusiva de los mismos.", "correct": true },
@@ -305,7 +305,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b82.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb82.jpg?alt=media",
       "question": "¿Cuál de estas señales comunica “Prevención”?",
       "answer": [
         { "option": "La señal A.", "correct": false },
@@ -314,7 +314,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b275.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb275.jpg?alt=media",
       "question": "Indique qué significa esta señal:",
       "answer": [
         { "option": "Ruta Nacional N°3.", "correct": true },
@@ -323,7 +323,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b245.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb245.jpg?alt=media",
       "question": "Determine qué indica la señal que a continuación se presenta:",
       "answer": [
         { "option": "Cruce Ferroviario (por la derecha).", "correct": false },
@@ -332,7 +332,7 @@ export class ExamComponent {
       ]
     },
     {
-      "image": "https://www.testdeconducir.com.ar/images/preguntas/b269.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autoescuelagiachello-5f53e.appspot.com/o/se%C3%B1ales%2Ffotos%2Fb269.jpg?alt=media",
       "question": "¿Qué indica esta señal?",
       "answer": [
         { "option": "Existencia de un teatro, en las inmediaciones.", "correct": true },

@@ -939,9 +939,10 @@
 // scss-docs-start nav-variables
 // $nav-link-padding-y:                .5rem;
 // $nav-link-padding-x:                1rem;
-$nav-link-font-size:                1rem;
+
+// $nav-link-font-size:                   1rem;
 // $nav-link-font-weight:              null;
-// $nav-link-color:                    $link-color;
+// $nav-link-color:                     black;
 // $nav-link-hover-color:              $link-hover-color;
 // $nav-link-transition:               color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 // $nav-link-disabled-color:           $gray-600;
@@ -988,8 +989,8 @@ $nav-link-font-size:                1rem;
 // $navbar-dark-toggler-border-color:  rgba($white, .1);
 
 $navbar-light-color:                 #051014;
-$navbar-light-hover-color:           #ab0d1f;
-// $navbar-light-active-color:         $high-emphasis-dark;
+$navbar-light-hover-color:           #becbff;
+$navbar-light-active-color:          #0d0cb5;
 // $navbar-light-disabled-color:       $disabled-dark;
 // $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 // $navbar-light-toggler-border-color: rgba($black, .1);
@@ -1402,7 +1403,7 @@ $card-bg:                              rgba(255, 255, 255, 0.774);
 // $header-padding-x:              $spacer / 2;
 // $header-brand-font-size:        $font-size-lg;
 // $header-color:                  $medium-emphasis-dark;
-$header-bg:                        #8d99ae;
+$header-bg:                        #c82121;
 // $header-border-color:           $border-color;
 // $header-border-width:           1px;
 // $header-hover-color:            $high-emphasis-dark;
