@@ -6,7 +6,7 @@
 </head>
 <body>
   <div>
-    <c-carousel (itemChange)="onSlideChange($event)" [interval]="500000" transition="slide" class="slider">
+    <c-carousel (itemChange)="onSlideChange($event)" [interval]="6000" transition="slide" class="slider">
       <c-carousel-inner>
         <c-carousel-item *ngFor="let slide of slides">
           <div class="slide">
@@ -18,7 +18,8 @@
               loading="lazy"
             />
           </div>
-          <h1 class="slide-text">Autoescuela Giachello.<br /> Tu escuela de manejo en Buenos Aires.</h1>
+          <h1 class="slide-text">{{slide.title}}</h1>
+          <h2 class="slide-subtitle">{{slide.subtitle}}</h2>
         </c-carousel-item>
       </c-carousel-inner>
     </c-carousel>
