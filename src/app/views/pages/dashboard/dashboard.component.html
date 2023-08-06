@@ -6,9 +6,22 @@
 </head>
 <body>
   <div>
-    <h1>
-      Autoescuela Giachello. Tu escuela de manejo en Buenos Aires.
-    </h1>
+    <c-carousel (itemChange)="onSlideChange($event)" [interval]="500000" transition="slide" class="slider">
+      <c-carousel-inner>
+        <c-carousel-item *ngFor="let slide of slides">
+          <div class="slide">
+            <img
+              [src]="slide.src"
+              alt="{{slide.title}}"
+              class="w-100"
+              style="height: 480px;"
+              loading="lazy"
+            />
+          </div>
+          <h1 class="slide-text">Autoescuela Giachello.<br /> Tu escuela de manejo en Buenos Aires.</h1>
+        </c-carousel-item>
+      </c-carousel-inner>
+    </c-carousel>
     <h3>
       Más de 10 años de experiencia.
     </h3>
@@ -29,82 +42,83 @@
         Cursos a domicilio, todos los días de 8:00 a 20:00. De una hora de duración
       </h4>
     </div>
-    
-    
-    <c-row [gutter]="4" class="mb-3" [md]="3" [xs]="1">
-      <c-col>
-        <a href="/#/informacion" style="text-decoration: none;">
+    <div class="px-3">
+      <c-row [gutter]="4" class="mb-3" [md]="3" [xs]="1">
+        <c-col>
+          <a href="/#/informacion" style="text-decoration: none;">
+            <c-card class="h-100">
+              <img cCardImg="top" class="cardImage" src="../../../assets/images/information.png">
+              <c-card-body>
+                <h5 cCardTitle>Material teórico</h5>
+                <p cCardText>
+                  Te brindamos el material teórico completo sobre normas viales, señales y decisiones seguras al conducir.
+                </p>
+              </c-card-body>
+            </c-card>
+          </a>
+        </c-col>
+        <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/information.png">
+            <img cCardImg="top" class="cardImage" src="../../../assets/images/neighborhood.png">
             <c-card-body>
-              <h5 cCardTitle>Material teórico</h5>
+              <h5 cCardTitle>Practica en calle</h5>
               <p cCardText>
-                Te brindamos el material teórico completo sobre normas viales, señales y decisiones seguras al conducir.
+                En nuestras lecciones prácticas en la calle, te guiamos a través de situaciones reales de manejo para desenvolverte con confianza en las calles. 
               </p>
             </c-card-body>
           </c-card>
-        </a>
-      </c-col>
-      <c-col>
-        <c-card class="h-100">
-          <img cCardImg="top" class="cardImage" src="../../../assets/images/neighborhood.png">
-          <c-card-body>
-            <h5 cCardTitle>Practica en calle</h5>
-            <p cCardText>
-              En nuestras lecciones prácticas en la calle, te guiamos a través de situaciones reales de manejo para desenvolverte con confianza en las calles. 
-            </p>
-          </c-card-body>
-        </c-card>
-      </c-col>
-      <c-col>
-        <c-card class="h-100">
-          <img cCardImg="top" class="cardImage" src="../../../assets/images/test.png">
-          <c-card-body>
-            <h5 cCardTitle>Acompañamiento a Examen</h5>
-            <p cCardText>
-              Incluye la posibilidad de utilizar nuestro vehículo para rendir el examen práctico.
-            </p>
-          </c-card-body>
-        </c-card>
-      </c-col>
-      <c-col>
-        <c-card class="h-100">
-          <img cCardImg="top" class="cardImage" src="../../../assets/images/highway-sign.png">
-          <c-card-body>
-            <h5 cCardTitle>Clases de Autopista</h5>
-            <p cCardText>
-              Te permiten dominar las técnicas necesarias para conducir de manera segura y efectiva en autopistas y vías rápidas.
-              Aprenderás a manejar cambios de carril, entrar y salir de rampas y mantener una velocidad constante.
-            </p>
-          </c-card-body>
-        </c-card>
-      </c-col>
-      <c-col>
-        <c-card class="h-100">
-          <img cCardImg="top" class="cardImage" src="../../../assets/images/pollution.png">
-          <c-card-body>
-            <h5 cCardTitle>Manejo Avanzado</h5>
-            <p cCardText>
-              Perfecciona tus habilidades en situaciones desafiantes, desde estacionamiento preciso hasta maniobras complejas, preparándote para un manejo seguro y confiado en cualquier entorno.
-            </p>
-          </c-card-body>
-        </c-card>
-      </c-col>
-      <c-col>
-        <c-card class="h-100">
-          <img cCardImg="top" class="cardImage" src="../../../assets/images/driving-test.png">
-          <c-card-body>
-            <h5 cCardTitle>Manejo Defensivo</h5>
-            <p cCardText>
-              Te equipa con técnicas esenciales para anticipar y evitar peligros en el día a día. Para que conduzcas con precaución y confianza en cualquier situación.
-            </p>
-          </c-card-body>
-        </c-card>
-      </c-col>
-    </c-row>
+        </c-col>
+        <c-col>
+          <c-card class="h-100">
+            <img cCardImg="top" class="cardImage" src="../../../assets/images/test.png">
+            <c-card-body>
+              <h5 cCardTitle>Acompañamiento a Examen</h5>
+              <p cCardText>
+                Incluye la posibilidad de utilizar nuestro vehículo para rendir el examen práctico.
+              </p>
+            </c-card-body>
+          </c-card>
+        </c-col>
+        <c-col>
+          <c-card class="h-100">
+            <img cCardImg="top" class="cardImage" src="../../../assets/images/highway-sign.png">
+            <c-card-body>
+              <h5 cCardTitle>Clases de Autopista</h5>
+              <p cCardText>
+                Te permiten dominar las técnicas necesarias para conducir de manera segura y efectiva en autopistas y vías rápidas.
+                Aprenderás a manejar cambios de carril, entrar y salir de rampas y mantener una velocidad constante.
+              </p>
+            </c-card-body>
+          </c-card>
+        </c-col>
+        <c-col>
+          <c-card class="h-100">
+            <img cCardImg="top" class="cardImage" src="../../../assets/images/pollution.png">
+            <c-card-body>
+              <h5 cCardTitle>Manejo Avanzado</h5>
+              <p cCardText>
+                Perfecciona tus habilidades en situaciones desafiantes, desde estacionamiento preciso hasta maniobras complejas, preparándote para un manejo seguro y confiado en cualquier entorno.
+              </p>
+            </c-card-body>
+          </c-card>
+        </c-col>
+        <c-col>
+          <c-card class="h-100">
+            <img cCardImg="top" class="cardImage" src="../../../assets/images/driving-test.png">
+            <c-card-body>
+              <h5 cCardTitle>Manejo Defensivo</h5>
+              <p cCardText>
+                Te equipa con técnicas esenciales para anticipar y evitar peligros en el día a día. Para que conduzcas con precaución y confianza en cualquier situación.
+              </p>
+            </c-card-body>
+          </c-card>
+        </c-col>
+      </c-row>
+    </div>
+    
   </div>
   
-  <c-card class="mb-1">
+  <!-- <c-card class="mb-1">
     <c-card-body breakpoint="md">
       <div class="divTitle">
         <h3 class="card-title mb-0">Nuestros Autos</h3>
@@ -126,54 +140,7 @@
         <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
       </c-carousel>
     </c-card-body>
-  </c-card>
-  
-  <c-row>
-    <c-col>
-      <div style="display: flex;flex-wrap: wrap;">
-        <div id="mapaDiv">
-          <div id="mapaCelu">
-            <div class="mapWrap">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4640.662547107034!2d-58.374205184318306!3d-34.668743096814666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd594c328ceb%3A0xc0a6fd1741f94c56!2sAutoescuela%20Giachello!5e0!3m2!1sen!2sus!4v1690666835285!5m2!1sen!2sus" 
-              width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-          <div id="mapaCompu">
-            <div class="mapWrap">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4640.662547107034!2d-58.374205184318306!3d-34.668743096814666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd594c328ceb%3A0xc0a6fd1741f94c56!2sAutoescuela%20Giachello!5e0!3m2!1sen!2sus!4v1690666835285!5m2!1sen!2sus" 
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-        <div id="info">
-          <div>
-            <div class="divTitle">
-              <h3>CONTACTANOS</h3>
-            </div>
-            <div class="iconWrap">
-              <i class="fa fa-facebook" style="width: 15px; margin-right: 15px;"></i>
-              <a href="https://www.facebook.com/autoescuela.giachello">
-                <h4>Autoescuela Giachello</h4>
-              </a>
-            </div>
-            <div class="iconWrap"> 
-              <i class="fa fa-whatsapp my-float" style="width: 15px; margin-right: 15px;"></i>
-              <a href="https://api.whatsapp.com/send?phone=5491121563916&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20curso%20de%20manejo.">
-                <h4>5491121563916</h4>
-              </a>
-            </div>
-            <div class="iconWrap">
-              <i class="fa fa-envelope" style="width: 15px; margin-right: 15px;"></i>
-              <a href="mailto:autoescuelagiachello@gmail.com">
-                <h4>autoescuelagiachello@gmail.com</h4>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </c-col>
-  </c-row>
-  
+  </c-card> -->
   <app-whats-app-floating></app-whats-app-floating>
 </body>
 </html>
