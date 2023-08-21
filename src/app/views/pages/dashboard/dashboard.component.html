@@ -23,16 +23,32 @@
         </c-carousel-item>
       </c-carousel-inner>
     </c-carousel>
-    <h3>
-      Más de 10 años de experiencia.
-    </h3>
-    <h3>
-      Más de 100 reseñas en google maps.
-    </h3>
-    <h3>
-      (poner 5 estrellas y reseñas de google maps)
-    </h3>
-    <div class="divTitle">
+    <div>
+      <div class="expDivContainer pt-4 pb-4">
+        <div class="expContainerIzq">
+          <h3 class="expHeader">
+            +10
+          </h3>
+          <h4 class="expContent">
+            Años junto a vos
+          </h4>
+        </div>
+        <img cCardImg="top" class="stars" src="../../../assets/images/5_stars.png">
+        <div class="expContainerDer">
+          <h3 class="expHeader">
+            +100
+          </h3>
+          <h4 class="expContent">
+            Reseñas en google maps
+          </h4>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+
+    <div class="divTitle mt-4">
       <h3>
         Nuestros Servicios
       </h3>
@@ -42,6 +58,37 @@
       <h4>
         Cursos a domicilio, todos los días de 8:00 a 20:00. De una hora de duración
       </h4>
+
+      <c-row>
+        <c-col [sm]="6">
+          <c-card class="mb-4">
+            <c-card-body>
+              <h5 cCardTitle>Card title</h5>
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+                <footer class="blockquote-footer">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </c-card-body>
+          </c-card>
+        </c-col>
+        <c-col [sm]="6">
+          <c-card class="mb-4">
+            <c-card-body>
+              <h5 cCardTitle>Card title</h5>
+              <p cCardText>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <button cButton color="primary">Go somewhere</button>
+            </c-card-body>
+          </c-card>
+        </c-col>
+      </c-row>
     </div>
     <div class="px-3">
       <c-row [gutter]="4" class="mb-3" [md]="3" [xs]="1">
