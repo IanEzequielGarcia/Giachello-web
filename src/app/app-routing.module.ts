@@ -21,7 +21,7 @@ const routes: Routes = [
       {
         path: '',
         loadChildren: () =>
-          import('./views/theme/theme.module').then((m) => m.ThemeModule)
+          import('./views/pages/informacion/theme.module').then((m) => m.ThemeModule)
       },
     ]
   },

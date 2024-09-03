@@ -3,9 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { InformacionComponent } from './informacion.component';
 import { TypographyComponent } from './typography.component';
-import { DashboardComponent } from '../pages/dashboard/dashboard.component';
-import { Page404Component } from '../pages/page404/page404.component';
-import { Page500Component } from '../pages/page500/page500.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
+import { Page404Component } from '../page404/page404.component';
+import { Page500Component } from '../page500/page500.component';
 
 const routes: Routes = [
     {
