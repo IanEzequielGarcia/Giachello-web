@@ -24,6 +24,7 @@
       </c-carousel-inner>
     </c-carousel>
     <div>
+      <!--Experiencia-->
       <div class="expDivContainer pt-4 pb-4">
         <div class="expContainerIzq">
           <h3 class="expHeader">
@@ -33,7 +34,7 @@
             Años junto a vos
           </h4>
         </div>
-        <img cCardImg="top" class="stars" src="../../../assets/images/5_stars.png">
+        <img cCardImg="top" class="stars" src="../../../../../assets/images/5_stars.png">
         <div class="expContainerDer">
           <h3 class="expHeader">
             +100
@@ -44,13 +45,12 @@
         </div>
       </div>
       <div>
-        
       </div>
     </div>
-    
+    <!--Reseñas google maps-->
     <c-row style="margin-left:10px; margin-right:10px; margin-top: 30px;">
-      <c-col [sm]="3">
-        <c-card class="mb-4" >
+      <c-col [sm]="3" class="mb-4" class="mb-4">
+        <c-card class="h-100">
           <c-card-body>
             <blockquote class="blockquote mb-0">
               <p>
@@ -64,13 +64,12 @@
           </c-card-body>
         </c-card>
       </c-col>
-      <c-col [sm]="3">
-        <c-card class="mb-4">
+      <c-col [sm]="3" class="mb-4">
+        <c-card class="h-100">
           <c-card-body>
             <blockquote class="blockquote mb-0">
               <p>
-            
-Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, aprendes un montón. Lo súper recomiendo."
+              Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, aprendes un montón. Lo súper recomiendo."
               </p>
               <footer class="blockquote-footer">
                 Jennifer Espinola
@@ -80,8 +79,8 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
           </c-card-body>
         </c-card>
       </c-col>
-      <c-col [sm]="3">
-        <c-card class="mb-4">
+      <c-col [sm]="3" class="mb-4">
+        <c-card class="h-100">
           <c-card-body>
             <blockquote class="blockquote mb-0">
               <p>
@@ -95,9 +94,8 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
           </c-card-body>
         </c-card>
       </c-col>
-
-      <c-col [sm]="3">
-        <c-card class="mb-4">
+      <c-col [sm]="3" class="mb-4">
+        <c-card class="h-100">
           <c-card-body>
             <blockquote class="blockquote mb-0">
               <p>
@@ -107,13 +105,16 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
                 Matias Menu
                 <cite title="Source Title">Google Maps</cite>
               </footer>
-              <a href="https://goo.gl/maps/xSmEtiS8y4ypsX6VA" target="_blank" rel="noopener noreferrer"><button cButton color="danger" >Ver mas</button></a>
+              <div class="button">
+                <a href="https://goo.gl/maps/xSmEtiS8y4ypsX6VA" target="_blank" rel="noopener noreferrer"><button cButton color="danger">Ver más</button></a>
+              </div>
             </blockquote>
           </c-card-body>
         </c-card>
       </c-col>
 
     </c-row>
+    <!--Nuestros Servicios-->
     <div class="divTitle mt-4">
       <h3 style="font-size: 40px; font-weight: bold;">
         Nuestros Servicios
@@ -124,46 +125,14 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
       <h4>
         Cursos a domicilio, todos los días de 8:00 a 20:00. De una hora de duración
       </h4>
-      <div class="px-3">
-
-        <c-row>
-          <c-col [sm]="6">
-            <c-card class="mb-4">
-              <c-card-body>
-                <h5 cCardTitle>Card title</h5>
-                <blockquote class="blockquote mb-0">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.
-                  </p>
-                  <footer class="blockquote-footer">
-                    Someone famous in
-                    <cite title="Source Title">Source Title</cite>
-                  </footer>
-                </blockquote>
-              </c-card-body>
-            </c-card>
-          </c-col>
-          <c-col [sm]="6">
-            <c-card class="mb-4">
-              <c-card-body>
-                <h5 cCardTitle>Card title</h5>
-                <p cCardText>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
-                <button cButton color="primary">Go somewhere</button>
-              </c-card-body>
-            </c-card>
-          </c-col>
-        </c-row>
-      </div>
     </div>
+    <!--Nuestros Servicios items-->
     <div class="px-3">
       <c-row [gutter]="4" class="mb-3" [md]="3" [xs]="1">
         <c-col>
           <a href="/#/informacion" style="text-decoration: none;">
             <c-card class="h-100">
-              <img cCardImg="top" class="cardImage" src="../../../assets/images/information.png">
+              <img cCardImg="top" class="cardImage" src="../../../../assets/images/information.png">
               <c-card-body>
                 <h5 cCardTitle>Material teórico</h5>
                 <p cCardText>
@@ -175,9 +144,9 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
         </c-col>
         <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/neighborhood.png">
+            <img cCardImg="top" class="cardImage" src="../../../../assets/images/neighborhood.png">
             <c-card-body>
-              <h5 cCardTitle>Practica en calle</h5>
+              <h5 cCardTitle>Práctica en calle</h5>
               <p cCardText>
                 En nuestras lecciones prácticas en la calle, te guiamos a través de situaciones reales de manejo para desenvolverte con confianza en las calles. 
               </p>
@@ -186,7 +155,7 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
         </c-col>
         <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/test.png">
+            <img cCardImg="top" class="cardImage" src="../../../../assets/images/test.png">
             <c-card-body>
               <h5 cCardTitle>Acompañamiento a Examen</h5>
               <p cCardText>
@@ -197,7 +166,7 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
         </c-col>
         <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/highway-sign.png">
+            <img cCardImg="top" class="cardImage" src="../../../../assets/images/highway-sign.png">
             <c-card-body>
               <h5 cCardTitle>Clases de Autopista</h5>
               <p cCardText>
@@ -209,7 +178,7 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
         </c-col>
         <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/pollution.png">
+            <img cCardImg="top" class="cardImage" src="../../../../assets/images/pollution.png">
             <c-card-body>
               <h5 cCardTitle>Manejo Avanzado</h5>
               <p cCardText>
@@ -220,7 +189,7 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
         </c-col>
         <c-col>
           <c-card class="h-100">
-            <img cCardImg="top" class="cardImage" src="../../../assets/images/driving-test.png">
+            <img cCardImg="top" class="cardImage" src="../../../../assets/images/driving-test.png">
             <c-card-body>
               <h5 cCardTitle>Manejo Defensivo</h5>
               <p cCardText>
@@ -233,30 +202,6 @@ Excelente instructor Gustavo!!! te explica muy bien y con mucha paciencia, apren
     </div>
     
   </div>
-  
-  <!-- <c-card class="mb-1">
-    <c-card-body breakpoint="md">
-      <div class="divTitle">
-        <h3 class="card-title mb-0">Nuestros Autos</h3>
-      </div>
-      <c-carousel >
-        <c-carousel-indicators></c-carousel-indicators>
-        <c-carousel-inner>
-          <c-carousel-item *ngFor="let slide of slides">
-            <img
-              [src]="slide.src"
-              alt="{{ slide.title }}"
-              class="d-block w-100"
-              style="height: 480px;"
-              loading="lazy" 
-              />
-          </c-carousel-item>
-        </c-carousel-inner>
-        <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
-        <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
-      </c-carousel>
-    </c-card-body>
-  </c-card> -->
   <app-whats-app-floating></app-whats-app-floating>
 </body>
 </html>

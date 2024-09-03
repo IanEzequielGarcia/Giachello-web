@@ -45,6 +45,7 @@ import {
 import { IconModule, IconSetService } from '@coreui/icons-angular';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
 
 const APP_CONTAINERS = [
   DefaultFooterComponent,
@@ -87,6 +88,7 @@ const APP_CONTAINERS = [
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
+    ExamplePdfViewerComponent
   ],
   providers: [
     {

@@ -9,13 +9,15 @@ import { TypographyComponent } from './typography.component';
 
 // Theme Routing
 import { ThemeRoutingModule } from './theme-routing.module';
-import { ExamComponent } from '../pages/exam/exam.component';
+import { ExamComponent } from '../exam/exam.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { WhatsAppFloatingComponent } from '../pages/whats-app-floating/whats-app-floating.component';
-import { DashboardComponent } from '../pages/dashboard/dashboard.component';
-import { Page404Component } from '../pages/page404/page404.component';
-import { Page500Component } from '../pages/page500/page500.component';
+import { WhatsAppFloatingComponent } from '../whats-app-floating/whats-app-floating.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
+import { Page404Component } from '../page404/page404.component';
+import { Page500Component } from '../page500/page500.component';
 import { ChartjsModule } from '@coreui/angular-chartjs';
+import { ExamplePdfViewerComponent } from '../../../example-pdf-viewer/example-pdf-viewer.component';
+import { NgxExtendedPdfViewerService } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   imports: [
@@ -33,7 +35,8 @@ import { ChartjsModule } from '@coreui/angular-chartjs';
     ProgressModule,
     ReactiveFormsModule,
     ButtonGroupModule,
-    CarouselModule
+    CarouselModule,
+    ExamplePdfViewerComponent
   ],
   declarations: [
     InformacionComponent,
@@ -42,7 +45,9 @@ import { ChartjsModule } from '@coreui/angular-chartjs';
     WhatsAppFloatingComponent,
     DashboardComponent,
     Page404Component,
-    Page500Component,
+    Page500Component
+  ],providers:[
+    NgxExtendedPdfViewerService
   ]
 })
 export class ThemeModule {

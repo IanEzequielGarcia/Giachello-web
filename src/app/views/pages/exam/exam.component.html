@@ -13,7 +13,7 @@
           <div class="card text-center" >
               <ul class="list-group list-group-flush text-center" *ngFor="let quiz of quizzes[currentQuiz].answer">
                   <li class="list-group-item text-center">
-                      <input  type="radio" name="options" (change)="onAnswer(quiz.correct)" [disabled]="answerSelected">{{ quiz.option }}
+                      <input  type="radio" name="options" (change)="onAnswer(quiz.correct)" [disabled]="answerSelected"> {{ quiz.option }}
                   </li>
               </ul>
           </div>
